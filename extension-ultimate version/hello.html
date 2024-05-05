@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="crypto-js.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Note Taker</title>
+</head>
+<body>
+  <div id="note-taker">
+    <h2>Note Taking &reg; By Reema<h2>
+    <textarea id="note-title" placeholder="Note Title (optional)"></textarea>
+	<textarea id="note-input" placeholder="Write your note here..."></textarea>
+    <input type="text" id="security-question" placeholder="Security Question">
+    <input type="text" id="security-answer" placeholder="Security Answer">
+    <br><button id="save-note">Save Note</button>
+    <button id="exit-read-mode" style="display: none;">Exit Read Mode</button>
+
+  </div>
+      <h2> List of notes</h2>
+	  <ul id="saved-notes"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
