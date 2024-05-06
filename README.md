@@ -1,5 +1,5 @@
 Note Taker Extension Installation Guide
-This document provides a step-by-step guide on how to install the Note Taker extension for Google Chrome.
+This provides a step-by-step guide on how to install the Note Taker extension for Google Chrome.
 
 Step 1: Download the Extension
 Download the Note Taker extension from the provided link or location. You should have a file.
